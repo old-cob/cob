@@ -2,5 +2,11 @@
   "name": "old-cob-backend",
   "version": "1.0.0",
   "main": "src/index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server --port 3141 test/test-data.js"
+  },
+  "devDependencies": {
+    "json-server": "^0.11.2"
+  }
 }
